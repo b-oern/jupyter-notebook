@@ -44,6 +44,6 @@ WORKDIR ${HOME}
 
 From this point, you can start adding files, installing packages, etc.
 
-Python-Pakete können über die [requirements.txt](https://github.com/binder-examples/requirements/blob/master/requirements.txt) von Binder installiert werden. Es werden verschiedene [Konfigurations-Dateien](https://mybinder.readthedocs.io/en/latest/config_files.html#config-files) z.B. apt.txt ünterstützt.
+Python-Pakete können über die [requirements.txt](https://github.com/binder-examples/requirements/blob/master/requirements.txt) von Binder installiert werden. Es werden verschiedene [Konfigurations-Dateien](https://mybinder.readthedocs.io/en/latest/config_files.html#config-files) z.B. apt.txt ünterstützt. Die Shell-Datei `postBuild` wird von binder ebenfalls ausgeführt
 
 Wenn das Notebook `index.ipynb` existiert wird dieses Notebook von Jupyter geöffnet.
