@@ -45,3 +45,5 @@ WORKDIR ${HOME}
 ```
 
 From this point, you can start adding files, installing packages, etc.
+
+Wenn das Notebook index.ipynb existiert wird dieses Notebook von Jupyter geöffnet.
