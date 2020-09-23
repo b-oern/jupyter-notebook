@@ -26,8 +26,6 @@ RUN pip install --no-cache notebook
 ENV HOME=/tmp
 ```
 
-which you can try out: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binder-examples/minimal-dockerfile/truly-minimal)
-
 However, it would be better to consume the NB_UID/NB_USER arguments and create a real user:
 
 ```docker
